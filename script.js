@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initThemeToggle();
     initMobileNav();
     initResumeModal();
-    initContactForm();
     initScrollSpy();
 });
 
@@ -78,17 +77,6 @@ function initResumeModal() {
         if (e.target === modal) {
             modal.classList.remove('active');
         }
-    });
-}
-
-function initContactForm() {
-    const form = document.getElementById('contact-form');
-    if (!form) return;
-
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        showToast('Message sent successfully. Thank you for your inquiry.');
-        form.reset();
     });
 }
 
