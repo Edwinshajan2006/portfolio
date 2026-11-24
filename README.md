@@ -78,7 +78,6 @@ portfolio/
 ## Featured projects
 
 - [NED-OS](https://github.com/Edwinshajan2006/Ned-OS) · Personal Linux environment
-- [KTUNOTES.LIVE](https://github.com/Edwinshajan2006/ktunotes.live) · Student resource platform
 - [SMS Spam Detection](https://github.com/Edwinshajan2006/SPAM-DETECTION) · NLP and machine learning
 - [Smart Fridge Manager](https://github.com/Edwinshajan2006/SMART-FRIDGE-MANAGER) · Food inventory web app
 
