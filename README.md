@@ -1,77 +1,87 @@
-# Edwin Shajan - Personal Cyberpunk & Glassmorphic Portfolio Website
+# Edwin Shajan | Developer Portfolio
 
-> **Aspiring Software Engineer & IoT Developer** with a passion for Cybersecurity, Embedded Systems, Linux, and Web Development.
+<div align="center">
 
----
+### Computer Science · Linux · Web Development · IoT
 
-## 🌟 Features & Highlights
+[![Portfolio](https://img.shields.io/badge/Live%20Portfolio-Visit-14532d?style=flat-square)](https://portfolio-xi-navy-2m91yevxs3.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Edwinshajan2006-111827?style=flat-square&logo=github)](https://github.com/Edwinshajan2006)
 
-- ⚡ **Vercel Ready**: 100% zero-configuration static site deployment.
-- 🎨 **Glassmorphism & Cyberpunk Design System**: Custom HSL dark themes, glowing neons, particle canvas backdrop, smooth scrolling, and dark/light mode toggle.
-- 💻 **Interactive Linux CLI Terminal**: Built-in interactive terminal emulator supporting commands like `neofetch`, `whoami`, `skills`, `projects`, `education`, `cat goal.txt`, `github`, `date`, and `clear`.
-- 📱 **Fully Responsive**: Pixel-perfect on mobile, tablet, desktop, and ultra-wide screens.
-- 📂 **Project Showcase Grid**: Categorized filter tabs (IoT & Hardware, Web Applications, Python) with direct GitHub links.
-- 📄 **Interactive Resume Viewer**: Built-in curriculum vitae modal with PDF print styling.
-- 📊 **GitHub Stats Integration**: Live stats and top language metrics synced with `@Edwinshajan2006`.
-- 📬 **Contact Form**: Functional interactive form with instant floating toast feedback.
+</div>
 
----
+A personal portfolio website presenting my background, technical interests, selected projects, experience and contact links.
 
-## 🚀 How to Deploy to Vercel in 3 Easy Steps
+## Highlights
 
-### Option A: Via GitHub & Vercel Web Dashboard (Recommended)
+- Responsive layout for desktop and mobile
+- Dark / light theme toggle
+- Project showcase with category filters
+- Interactive terminal-style interface
+- Resume viewer
+- GitHub statistics integration
+- Contact section and professional links
 
-1. **Push to GitHub**:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial portfolio release for Edwin Shajan"
-   git branch -M main
-   git remote add origin https://github.com/Edwinshajan2006/portfolio.git
-   git push -u origin main
-   ```
+## Technology
 
-2. **Import to Vercel**:
-   - Go to [Vercel Dashboard](https://vercel.com/new).
-   - Click **Import Project** and select your GitHub repository `Edwinshajan2006/portfolio`.
-   - Keep default settings (Vercel automatically detects `index.html` and `vercel.json`).
+- HTML5
+- CSS3
+- JavaScript
+- Lucide icons
+- Google Fonts
+- Vercel for deployment
 
-3. **Deploy!**
-   - Click **Deploy**. Your portfolio will be live in under 15 seconds at `https://portfolio-edwinshajan.vercel.app`!
+## Live website
 
----
+**[Open the portfolio](https://portfolio-xi-navy-2m91yevxs3.vercel.app)**
 
-### Option B: Via Vercel CLI
+## Run locally
+
+No build step is required for the static website.
 
 ```bash
-# Install Vercel CLI globally
-npm i -g vercel
-
-# Deploy directly from your terminal
-vercel
+git clone https://github.com/Edwinshajan2006/portfolio.git
+cd portfolio
 ```
 
----
+Open `index.html` in a browser, or start a local static server:
 
-## 📂 Project Structure
-
+```bash
+python3 -m http.server 8000
 ```
+
+Then visit `http://localhost:8000`.
+
+## Project structure
+
+```text
 portfolio/
-├── index.html            # Main semantic HTML5 markup
-├── styles.css            # Custom CSS system, themes, and glassmorphism
-├── script.js             # Interactive terminal, particle canvas & filters
-├── vercel.json           # Vercel deployment configuration
-├── assets/
-│   ├── avatar.png        # Futuristic tech avatar graphic
-│   ├── smart_fridge.png  # Smart Fridge project thumbnail
-│   └── event_mgmt.png    # Event Management System thumbnail
-└── README.md             # Project documentation
+├── index.html       # Page structure and content
+├── styles.css       # Layout, themes and responsive styling
+├── script.js        # Interactions and UI behavior
+├── assets/          # Supporting visual assets
+├── avatar.png       # Profile image
+├── smart_fridge.png # Smart Fridge project image
+├── event_mgmt.png   # Event management project image
+├── vercel.json      # Deployment configuration
+└── README.md
 ```
+
+## Connect
+
+- GitHub: [@Edwinshajan2006](https://github.com/Edwinshajan2006)
+- LinkedIn: [Edwin Shajan](https://www.linkedin.com/in/edwin-shajan-53374231a/)
+
+## Roadmap
+
+- [ ] Refresh project screenshots and descriptions as projects evolve
+- [ ] Add accessibility checks and keyboard-navigation review
+- [ ] Keep resume and project links current
+- [ ] Add concise case studies for the strongest projects
 
 ---
 
-## 🔗 Connected Social Links
+<div align="center">
 
-- **GitHub**: [github.com/Edwinshajan2006](https://github.com/Edwinshajan2006/)
-- **LinkedIn**: [linkedin.com/in/edwin-shajan-53374231a](https://www.linkedin.com/in/edwin-shajan-53374231a/)
-- **Instagram**: [instagram.com/edwi__n](https://www.instagram.com/edwi__n)
+**Designed and built by Edwin Shajan**
+
+</div>
