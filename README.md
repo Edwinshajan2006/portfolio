@@ -2,6 +2,12 @@
 
 <div align="center">
 
+<img src="./profile-banner.svg" width="100%" alt="EDWIN SHAJAN project banner" />
+
+</div>
+
+<div align="center">
+
 ### Computer Science · Linux · Web Development · IoT
 
 [![Portfolio](https://img.shields.io/badge/Live%20Portfolio-Visit-14532d?style=flat-square)](https://portfolio-xi-navy-2m91yevxs3.vercel.app)
